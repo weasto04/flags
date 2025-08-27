@@ -1,0 +1,13 @@
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:18px;background:#f7f7f8;color:#111}
+h1{font-size:18px;margin-bottom:12px}
+#app{display:flex;flex-direction:column;gap:12px;max-width:980px}
+#plot{background:#ffffff;border:1px solid #ddd;cursor:grab}
+#plot:active{cursor:grabbing}
+#tooltip{position:absolute;padding:6px 8px;background:rgba(0,0,0,0.8);color:#fff;border-radius:4px;font-size:13px;pointer-events:none}
+.hidden{display:none}
+#clusters{display:flex;flex-direction:row;gap:12px}
+.cluster{flex:1;background:#fff;border:1px solid #e2e2e2;padding:8px;border-radius:6px}
+.cluster h3{margin:0 0 6px 0;font-size:14px}
+.member{display:flex;align-items:center;gap:8px;padding:4px 0}
+.member img{width:28px;height:28px;object-fit:cover;border:1px solid #ddd}
+.centroid{stroke:#000}
